@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51829cd242.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images_w/logo_2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CS student</p>
+                <h1>Hi, I'm <span>Maulik Sharma</span><br>Welcome to my Portfolio</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------ about -------------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images_w/Dup_side_logo_2.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello! My name is Maulik Sharma, and I am a 4th-semester Computer Science student 
+                        at SMVIT.<br>With a deep passion for coding, I constantly strive to push the boundaries 
+                        of my knowledge and skills. Driven by ambitious goals and a relentless eagerness to 
+                        learn, I am committed to growing as a proficient coder and making a meaningful impact 
+                        in the tech world.<br>Welcome to my portfolio, where you can explore my journey and the 
+                        projects I've undertaken.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick= "opentab('certifications')">Certifications</p>
+                        <p class="tab-links" onclick= "opentab('languages')">Languages</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Extremely skilled</span><br>Unmatched supremacy</li>
+                            <li><span>Gym bro</span><br>Strength++</span></li>
+                            <li><span>Perceptive</span><br>Versatile</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>GIT</span><br>Git and Github Workshop</li>
+                            <li><span>IOT</span><br>Internet of things Workshop</span></li>
+                            <li><span>Google cloud and virtualization</span><br>Hands on worskshop</li>
+                            <li><span>CAPM</span><br>Certification by PMI</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span>C</span><br>proficient - ⭐⭐⭐</li>
+                            <li><span>C++</span><br>Rookie - ⭐⭐</span></li>
+                            <li><span>Python</span><br>Rookie - ⭐⭐</li>
+                            <li><span>Java</span><br>Beginner - ⭐</li>
+                            <li><span>HTML, CSS, javascript</span><br>Beginner - ⭐</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------------------- services ----------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Developer</h2>
+                    <p>I can develop customized 
+                        webpages as requested by client. 
+                        I can develop websites with features 
+                        like dark mode, onclick animations, 
+                        image upload and personalization, etc </p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Algorithm making</h2>
+                    <p>I can create algorithms to solve 
+                        complex problems quickly and efficiently. 
+                        I can develop them in different programming 
+                        languages such as C, C++,Python and JAVA as 
+                        per requirement </p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video editing</h2>
+                    <p>I can edit videos and add basic effects to them, 
+                        The knowledge i have about this field is not 
+                        enough to call myself proficeint in video editing,
+                        but i am interested in learning more about it.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>                        
+        </div>
+    </div>
+
+    <!-- --------------------- PROJECTS -------------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images_w/work_3.png">
+                    <div class="layer">
+                        <h3>Student Dashboard website</h3>
+                        <p>An online tool to help students keep track of the essential elements of their academic life like attendance, SGPA, Timetable, and daily tasks. Has live update feature, all the features of the page are connected and interdependent, they update and calculate expressions on changes made by user. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images_w/work_2.png">
+                    <div class="layer">
+                        <h3>The Iron Man suit (AI powered)</h3>
+                        <p>A powerful superweapon powered by AI "Jarvis". Has multi planetary destructive capabilities and a nuclear arsenal of advanced weaponry designed for maximum bandwidth of species erasal and intergalactic combat situations involving space travel to target galaxy. Can also be used as a calculator.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#"class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------------------- contact --------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>mauliksharmastudent@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9108199050</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/maulik-sharma-574757271/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Termi007xt"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="images_w/CV.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>             
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ Maulik.</p>
+        </div>
+    </div>
+
+    <script>        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>    
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemeu.style.right = "-200";
+        }
+
+    </script>
+</body>
+</html>
